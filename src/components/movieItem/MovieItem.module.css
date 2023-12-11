@@ -1,0 +1,34 @@
+.kirang {
+	font-family: 'Kirang Haerang';
+}
+
+.itemCard {
+	@apply flex kirang justify-center items-center h-[30vh];
+}
+
+.movieItem {
+	@apply z-40;
+}
+.buttonDiv {
+	@apply flex flex-row  items-center justify-around;
+}
+
+.movieButton {
+	@apply px-2 rounded text-white flex items-center;
+}
+
+.itemDetails {
+	@apply absolute w-[16vh] flex flex-col whitespace-nowrap overflow-clip;
+}
+
+.itemDetails > button {
+	@apply flex justify-between px-2 items-end text-xl;
+}
+
+.itemDetails > span {
+	@apply flex justify-between px-2 items-end text-xl;
+}
+
+.detailsList {
+	@apply grid text-sm md:text-lg grid-cols-1;
+}

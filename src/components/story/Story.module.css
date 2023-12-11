@@ -1,0 +1,31 @@
+.lexend {
+	font-family: 'Lexend Decca', sans-serif;
+}
+
+.kirang {
+	font-family: 'Kirang Haerang';
+}
+
+.story {
+	@apply lexend shadow-sm text-xl md:text-2xl lg:text-3xl bg-[rgb(191,215,234)] rounded;
+}
+
+hr {
+	@apply p-2;
+}
+
+.title {
+	@apply text-3xl md:text-5xl kirang whitespace-nowrap  p-3 text-center text-[rgb(225,102,99)];
+}
+
+.intro {
+	@apply px-4 my-4 text-[rgb(11,57,84)] bg-[rgb(255,102,99)] m-3 p-3 rounded;
+}
+
+.itemDiv {
+	@apply p-6 my-6 bg-[rgb(11,57,84)] rounded m-3;
+}
+
+.movieTitle {
+	@apply text-[rgb(224,255,79)] kirang flex justify-between;
+}

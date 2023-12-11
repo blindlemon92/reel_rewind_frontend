@@ -1,0 +1,27 @@
+.itemDetails {
+	@apply absolute grid h-[30vh] w-[18vh] bg-[rgb(11,57,84)] z-50 text-center  rounded;
+}
+
+.itemDetails > span {
+	@apply ml-auto mr-auto;
+}
+
+.itemDetails > button {
+	@apply flex justify-between  px-2 items-end text-xl;
+}
+
+.genresContainer {
+	@apply flex overflow-x-scroll;
+}
+
+.ratingContainer {
+	@apply flex overflow-x-scroll;
+}
+
+.submitContainer {
+	@apply flex flex-row justify-center items-center;
+}
+
+.submitButton {
+	@apply hover:invert text-green-600 rounded px-2 shadow-md;
+}

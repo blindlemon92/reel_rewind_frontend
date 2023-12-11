@@ -1,0 +1,21 @@
+.news {
+	@apply kirang text-[rgb(224,255,79)] bg-[rgb(11,57,84)] shadow-sm pt-[2rem] h-full;
+}
+.kirang {
+	font-family: 'Kirang Haerang';
+}
+.slogan {
+	@apply text-2xl m-3  bg-[rgb(224,225,79)] text-[rgb(225,102,99)]  p-2 rounded text-center;
+}
+
+span {
+	@apply whitespace-nowrap;
+}
+.reel_rewind {
+	@apply flex text-5xl justify-center text-[rgb(11,57,84)];
+}
+
+.news_heading {
+	text-shadow: -2px 3px black;
+	@apply text-4xl  whitespace-nowrap text-center text-stone-50;
+}

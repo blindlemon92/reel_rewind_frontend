@@ -1,0 +1,34 @@
+.kirang {
+	font-family: 'Kirang Haerang';
+}
+
+.collectionCard {
+	@apply bg-[rgb(11,57,84)] kirang text-[rgb(224,255,79)] flex flex-col h-[100svh] w-full pb-2 justify-evenly shadow-inner;
+}
+.introMessage {
+	@apply w-full h-[100svh] flex flex-col justify-around;
+}
+
+.aimUp {
+	@apply flex text-2xl md:text-5xl  right-0 m-2 p-2  rounded items-center justify-end gap-1;
+}
+
+.otherSteps {
+	@apply flex text-2xl md:text-5xl items-center m-4 p-2 rounded text-[rgb(255,102,99)];
+}
+
+.otherSteps > span {
+	@apply m-2 md:m-4;
+}
+
+.updateContainer {
+	@apply text-xl z-50 absolute top-[3rem];
+}
+
+.updateButton {
+	@apply bg-[rgb(255,102,99)] text-xl md:text-2xl gap-2 flex px-4 py-2 w-full rounded-br-full;
+}
+
+.itemsContainer {
+	@apply grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4;
+}

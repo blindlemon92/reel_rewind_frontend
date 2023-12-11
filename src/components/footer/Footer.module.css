@@ -1,0 +1,6 @@
+.footer {
+	@apply grid grid-cols-4 md:hidden place-items-center justify-items-center
+        h-[4.5rem] bottom-0 sticky
+        bg-[rgb(11,57,84)] shadow-inner
+        z-50;
+}

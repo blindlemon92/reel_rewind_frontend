@@ -1,0 +1,33 @@
+.kirang {
+	font-family: 'Kirang Haerang';
+}
+
+.nav {
+	@apply sticky flex justify-between px-3 kirang  items-center whitespace-nowrap text-[rgb(224,255,79)] font-bold w-full bg-[rgb(11,57,84)]  top-0 z-50 h-[3rem] shadow-2xl;
+}
+
+.logoDiv {
+	@apply flex text-[rgb(224,255,79)]  items-center justify-between gap-1;
+}
+
+.navLinks {
+	@apply hidden md:flex gap-4 mr-4 ml-auto;
+}
+
+.navContents {
+	text-shadow: -3px 4px 1px black;
+	@apply flex flex-row items-center;
+}
+
+.profileLink {
+	@apply flex justify-center items-center;
+}
+
+button {
+	text-shadow: -3px 4px 1px black;
+}
+
+.userImg {
+	object-position: 50% 50%;
+	@apply h-[2.4rem] mx-2 shadow-lg rounded-full;
+}

@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.kirang {
+	font-family: 'Kirang Haerang';
+}
+
+.bodoni {
+	font-family: 'Bodoni Moda';
+}
+
+#l2r {
+	animation: lefttoright 5s infinite;
+
+	animation-timing-function: ease;
+	position: relative;
+}
+
+@keyframes lefttoright {
+	from {
+		translate: transformX(-100%);
+	}
+	to {
+		translate: transformX(0);
+	}
+}

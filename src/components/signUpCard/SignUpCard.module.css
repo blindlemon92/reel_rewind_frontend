@@ -1,0 +1,53 @@
+.kirang {
+	font-family: 'Kirang Haerang';
+}
+
+.main {
+	@apply flex flex-col justify-center items-center w-full h-[88svh] sm:h-[90svh] md:h-[96svh] kirang text-[rgb(224,255,79)] bg-[rgb(11,57,84)];
+}
+
+.signedUp {
+	@apply text-sm flex flex-col py-2 text-[rgb(191,215,234)];
+}
+
+.signedUp > button {
+	@apply hover:text-[rgb(224,255,79)];
+}
+
+.form {
+	@apply p-4 rounded-xl mt-auto mb-auto;
+}
+
+.topContainer {
+	@apply flex flex-col;
+}
+
+.topContainer > input {
+	@apply rounded-xl text-center text-black py-3 my-3;
+}
+
+.regionContainer {
+	@apply flex flex-col items-center bg-[rgb(255,102,99)] px-2 rounded-xl shadow-xl;
+}
+
+.formLabel {
+	text-shadow: -2px 2px black;
+	@apply text-lg p-2 hover:cursor-pointer;
+}
+
+.regionCols {
+	@apply grid grid-cols-2;
+}
+
+.regionCols > div {
+	@apply flex;
+}
+
+.regionCols > div > input {
+	@apply hover:cursor-pointer mr-2 text-black border-r-red-600;
+}
+
+.button {
+	text-shadow: -2px 2px 1px black;
+	@apply p-3 my-2 w-full rounded-xl text-3xl bg-teal-400 shadow-inner;
+}

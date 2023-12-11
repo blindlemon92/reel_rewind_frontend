@@ -1,0 +1,11 @@
+.searchBar {
+	@apply flex flex-row items-center;
+}
+
+.searchBar > input {
+	@apply bg-blue-200 rounded-l-full text-center text-[rgb(11,57,84)] shadow-inner py-1;
+}
+
+.searchBar > button {
+	@apply rounded-r-full py-2 bg-slate-500 hover:bg-slate-400 hover:border border shadow-lg;
+}

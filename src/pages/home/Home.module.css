@@ -1,0 +1,59 @@
+.kirang {
+	font-family: 'Kirang Haerang';
+}
+
+.lexend {
+	font-family: 'Lexend Decca', sans-serif;
+}
+
+.home {
+	@apply flex flex-col top-0 items-center kirang  min-h-[100svh] w-full bg-[rgb(11,57,84)]  shadow-inner;
+}
+
+.sloganCard {
+	@apply bg-[rgb(11,57,84)] w-full  p-2 py-4 mt-3 rounded-xl shadow-inner;
+}
+
+.slogan {
+	@apply text-2xl lg:text-3xl flex flex-col w-full  bg-[rgb(224,225,79)] text-[rgb(225,102,99)] p-2 rounded text-center;
+}
+
+.reelRewind {
+	@apply flex text-5xl justify-center text-[rgb(11,57,84)];
+}
+
+.homeNews {
+	@apply ml-12 mr-12  flex flex-col;
+}
+
+.cardLabel {
+	@apply flex gap-2 text-xl text-[rgb(255,102,99)] w-full  items-center drop-shadow-xl;
+}
+
+.newsBlurb {
+	@apply m-3 bg-[rgb(224,255,79)] rounded-xl lexend  p-3;
+}
+
+.newsTitle {
+	@apply text-xl p-2 mb-3 kirang md:text-3xl lg:text-5xl  text-[rgb(11,57,84)]  text-center bg-[rgb(255,102,99)]  rounded-xl;
+}
+
+.noteContents {
+	@apply my-4 mx-3 p-3 md:text-xl lg:text-2xl bg-[rgb(224,255,79)] text-[rgb(11,57,84)]  lexend rounded-xl;
+}
+
+.cardContainer {
+	@apply text-white text-3xl grid gap-4;
+}
+
+.introCards {
+	@apply flex p-4 m-2 text-[rgb(224,255,79)] bg-[rgb(255,102,99)] rounded-xl whitespace-nowrap shadow-xl;
+}
+
+.signUp {
+	@apply flex justify-center my-8 text-[rgb(191,215,234)];
+}
+
+.clickHere {
+	@apply text-[rgb(224,255,79)];
+}
